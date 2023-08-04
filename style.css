@@ -8,9 +8,13 @@
     text-decoration: none;
 }
 
+header {
+    background-color: #262626;
+}
+
 body {
     font-size: 100%;
-    background: #262626;
+    background: #FFFF;
 }
 
 .cabecalho {
@@ -39,7 +43,7 @@ body {
 
 .conteudo {
     margin-bottom: 48px;
-    border-top: 0.4px solid #a3aab3;
+    border-top: 0.4px solid #255C99;
 }
 
 .conteudo-principal {
@@ -65,7 +69,7 @@ body {
     font-family: 'REM', sans-serif;
     font-weight: 400;
     font-size: 20px;
-    color: #FFFF;
+    color: #255C99;
 }
 
 .conteudo-principal-escrito-botao {
@@ -73,16 +77,17 @@ body {
     width: 150px;
     height: 50px;
     border: none;
-    box-shadow: 4px 5px 4px #131313;
+    box-shadow: 4px 5px 4px #f6f6f6;
     border-radius: 20px;
     font-family: 'REM', sans-serif;
     font-size: 15px;
+    color: #FFFF;
 }
 
 .conteudo-principal-img{
     padding-top: 30px;
     padding-bottom: 30px;
-    height: 250px;
+    height:500px;
 }
 
 .conteudo-secundario {
@@ -94,7 +99,7 @@ body {
 .conteudo-secundario-titulo {
     font-family: 'Ubuntu', sans-serif;
     font-size: 25px;
-    border-top: 0.4px solid #a3aab3;
+    border-top: 0.4px solid #255C99;
     padding-top: 45px;
     font-weight: 400;
     margin-bottom: 30px;
